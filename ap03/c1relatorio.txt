@@ -1,0 +1,10 @@
+O código contido em c1 aloca 40 bytes dinamicamente e logo em seguida preenche um inteiro em cada espaço alocado.
+O erro se dá no for da linha 8, a condição de parada está errada, fazendo com que o for execute uma vez a mais,
+tentando alocar coisas em uma memória inexistente.
+Para corrigir, basta substituir a condição de parada para i < 11
+Erro encontrado no valgrind:
+Invalid write of size 4
+  at 0x1091B8 main (c1.c:9)
+Address 0x4a8b068 is 0 bytes after a block of size 40 alloc'd
+  at 0x4848899 malloc
+  at 0x109185 main (c1.c:6)

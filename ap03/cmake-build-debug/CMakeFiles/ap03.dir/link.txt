@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ap03.dir/c2.c.o -o ap03 

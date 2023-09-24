@@ -1,0 +1,3 @@
+/mnt/c/Users/Dell/Desktop/UFMG/ed/ap03/cmake-build-debug/CMakeFiles/ap03.dir
+/mnt/c/Users/Dell/Desktop/UFMG/ed/ap03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Dell/Desktop/UFMG/ed/ap03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

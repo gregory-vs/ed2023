@@ -1,0 +1,6 @@
+O código foi feito para povoar um vetor estático de 10 espaços com 10 inteiros e logo em seguida imprimir os 10 inteiros
+do vetor.
+O erro se da na interação entre os for criados, pois o primeiro povoa 9 inteiros e deixa a posição a[9] não inicializada,
+ou seja, quando o programa tenta imprimir os 10 valores, ele esbarra com um valor que contém "lixo".
+Para corrigir esse erro, basta mudar a condição de para da do primeiro for de i < 9 para i < 10.
+Sem stacktrace de erro do valgrind.
