@@ -1,0 +1,19 @@
+o código implementa, por via de structs, uma lista e um método para realocar o tamanho da lista implementada.
+o erro se da pois o novo ponteiro criado em dPtr não atualiza o valor dos dados do array.
+Logs de erro: Invalid free() / delete / delete[] / realloc()
+                at 0x484B27F free
+                at 0x109215 main (c6.c:21)
+              Address 0x4a8b090 is 0 bytes inside a block of size 40 free'd
+                at 0x484DCD3 realloc
+                at 0x1091B4 resizeArray (c6.c:12)
+                at 0x109202 main (c6.c:19)
+              Block was alloc'd at
+                at 0x484DA83 calloc
+                at 0x1091EC main (c6.c:18)
+
+              60 bytes in 1 blocks are definitely lost in loss record 1 of 1
+                at 0x484DCD3 realloc
+                at 0x1091B4 resizeArray (c6.c:12)
+                at 0x109202 main (c6.c:19)
+
+para corrigir, criei uma nova forma de alocar os dados em um novo ponteiro, além de liberar a memória de um jeito mais adequado.

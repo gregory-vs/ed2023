@@ -1,0 +1,47 @@
+o programa aloca a quantidade de memória necessária para o nome de um usuário e após isso, imprime em tela o nome do usuário e o id dele.
+
+o erro se da na quantidade de memória alocada no ponteiro de char, pois ele aloca apenas 8 bytes,  certo é alocar 8 vezes o o tamanho de char.
+
+log de erro: Invalid read of size 1
+               at 0x48534C8 mempcpy
+               at 0x48EB6E4 _IO_new_file_xsputn (fileops.c:1235)
+               at 0x48EB6E4 _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+               at 0x48D708B outstring_func (vfprintf-internal.c:239)
+               at 0x48D708B __vfprintf_internal (vfprintf-internal.c:1517)
+               at 0x48C081E printf (printf.c:33)
+               at 0x1091E2 main (c11.c:11)
+             Address 0x4a8b048 is 0 bytes after a block of size 8 alloc'd
+               at 0x4848899 malloc
+               at 0x10919E main (c11.c:8)
+
+             Invalid read of size 1
+               at 0x48EB7B4 _IO_new_file_xsputn (fileops.c:1218)
+               at 0x48EB7B4 _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+               at 0x48D708B outstring_func (vfprintf-internal.c:239)
+               at 0x48D708B __vfprintf_internal (vfprintf-internal.c:1517)
+               at 0x48C081E printf (printf.c:33)
+               at 0x1091E2 main (c11.c:11)
+             Address 0x4a8b048 is 0 bytes after a block of size 8 alloc'd
+               at 0x4848899 malloc
+               at 0x10919E main (c11.c:8)
+
+            Invalid read of size 1
+              at 0x484ED24 strlen
+              at 0x48D6DB0 __vfprintf_internal (vfprintf-internal.c:1517)
+              at 0x48C081E printf (printf.c:33)
+              at 0x1091E2 main (c11.c:11)
+            Address 0x4a8b048 is 0 bytes after a block of size 8 alloc'd
+              at 0x4848899 malloc
+              at 0x10919E main (c11.c:8)
+
+            Invalid write of size 2
+              at 0x1091B4 main (c11.c:9)
+            Address 0x4a8b048 is 0 bytes after a block of size 8 alloc'd
+              at 0x4848899 malloc
+              at 0x10919E main (c11.c:8)
+
+            8 bytes in 1 blocks are definitely lost in loss record 1 of 1
+              at 0x4848899 malloc
+              at 0x10919E main (c11.c:8)
+
+corrigi o código mudando a quantidade de memória alocada pro vetor, além de liberar a memoria não alocada.

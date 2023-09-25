@@ -1,0 +1,7 @@
+o programa cria um vetor de numeros aleatórios e aloca memoria dinamicamente para este vetor.
+o erro do programa se da pois existe perda de memoria não utilizada, visto que não liberamos a memoria após a utilização do vetor.
+Log de erro: 4,000 bytes in 1 blocks are definitely lost in loss record 1 of 1
+               at 0x4848899 malloc
+               at 0x1091E7 main (c5.c:9)
+
+Para corrigir o erro, simplesmente adicionamos um free() após o print, para liberar a memória não utilizada.

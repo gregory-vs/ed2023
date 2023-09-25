@@ -1,0 +1,7 @@
+o codigo incrementa o valor de a em 1 dentro do loop
+
+o erro se da pois o valor de a é sempre inicializado dentro do for, ou seja, sempre vai ter o valor de 2.
+
+não se tem logs de erro.
+
+para corrigir esse problema, retirei a inicialização da variavel a de dentro do loop.

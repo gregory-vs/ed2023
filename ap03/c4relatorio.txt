@@ -1,0 +1,17 @@
+o código implementa,por meio de structs, uma matriz 2x2.
+
+O erro se dá pois algumas partes do código estão comentadas. Log de erro: Invalid write of size 4
+                                                                           at 0x10917A main (c4.c:13)
+                                                                         Address 0x0 is not stack'd, malloc'd or (recently) free'd
+
+                                                                         Use of uninitialised value of size 8
+                                                                           at 0x10917A main (c4.c:13)
+                                                                         Uninitialised value was created by a stack allocation
+                                                                           at 0x109169 main (c4.c:8)
+
+Depois que descomentamos as linhas, surge o seguinte erro: Conditional jump or move depends on uninitialised value(s)
+                                                             at 0x484B235 free
+                                                             at 0x109209 main (c4.c:18)
+                                                           Uninitialised value was created by a stack allocation
+                                                             at 0x109169 main (c4.c:8)
+que se resolve ao retirar a função free() do ponteiro text, pois este nunca é utilizado.

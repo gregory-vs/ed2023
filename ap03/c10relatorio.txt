@@ -1,0 +1,7 @@
+o codigo implementa um programa que aloca 128 bytes em um vetor e logo em seguida imprime em tela o conteúdo.
+
+o erro se dá porque além de estar dentro de um loop infinito, não liberava a memória não utilizada.
+
+não existe log de erro para esse problema
+
+para corrigir, simplesmente fiz com que o loop não fosse mais infinito, além de liberar a memória não utilizada.

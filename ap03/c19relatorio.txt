@@ -1,0 +1,17 @@
+o codigo em questão implementa um programa que faz a soma de um número inputado pelo usuário, e faz a soma de 1 até esse numero inputado.
+
+o erro se dá pois na hora de utilizar o buffering, não existe memoria alocada para a variável que não foi inicializada corretamente.
+
+log de erro: Invalid write of size 1
+               at 0x48EF757 _IO_str_overflow (strops.c:133)
+               at 0x48EDEB3 _IO_default_xsputn (genops.c:399)
+               at 0x48EDEB3 _IO_default_xsputn (genops.c:370)
+               at 0x48D51CC outstring_func (vfprintf-internal.c:239)
+               at 0x48D51CC __vfprintf_internal (vfprintf-internal.c:1263)
+               at 0x48E1A08 __vsprintf_internal (iovsprintf.c:95)
+               at 0x48C09A7 sprintf (sprintf.c:30)
+               at 0x1092A5 printSum (c19.c:22)
+               at 0x1092DD main (c19.c:28)
+             Address 0x0 is not stack'd, malloc'd or (recently) free'd
+
+para corrigir o erro, aloquei memória ao buffer, de acordo com o tamanho de char.

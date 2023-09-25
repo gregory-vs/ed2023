@@ -1,0 +1,7 @@
+o codigo cria um programa que realiza a divisão de a por b.
+
+o erro se da pois o valor de b é zero, fazendo com que a divisão seja inexistente.
+
+não existem logs para esse erro pelo valgrind
+
+para corrigir, eu adicionei uma verificação do valor de b, caso este seja zero, vai mostrar uma mensagem em tela, substituir o valor de b para 1 e vai realizar, corretamente a divisão.

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ed2023.dir/ap03/c19.c.o -o ed2023 

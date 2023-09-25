@@ -1,0 +1,29 @@
+o programa recebe um input de teclado do usuário um inteiro positivo e deve retornar o fatorial desse numero recebido.
+
+o erro se dá pois o fatorial retornado é sempre 0.
+
+log de erro: Conditional jump or move depends on uninitialised value(s)
+               at 0x48BA34C _itoa_word (_itoa.c:177)
+               at 0x48D5B3D __vfprintf_internal (vfprintf-internal.c:1516)
+               at 0x48C081E printf (printf.c:33)
+               at 0x10920D main (c14.c:12)
+             Uninitialised value was created by a stack allocation
+               at 0x109189 main (c14.c:3)
+
+            Conditional jump or move depends on uninitialised value(s)
+              at 0x48D5C85 __vfprintf_internal (vfprintf-internal.c:1516)
+              at 0x48C081E printf (printf.c:33)
+              at 0x10920D main (c14.c:12)
+            Uninitialised value was created by a stack allocation
+              at 0x109189 main (c14.c:3)
+
+
+            Use of uninitialised value of size 8
+              at 0x48BA33B _itoa_word (_itoa.c:177)
+              at 0x48D5B3D __vfprintf_internal (vfprintf-internal.c:1516)
+              at 0x48C081E printf (printf.c:33)
+              at 0x10920D main (c14.c:12)
+            Uninitialised value was created by a stack allocation
+              at 0x109189 main (c14.c:3)
+
+para corrigir o erro, temos que inicializar o valor do primeiro fatorial (1).

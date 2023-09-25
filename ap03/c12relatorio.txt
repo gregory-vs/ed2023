@@ -1,0 +1,11 @@
+o codigo simplesmente imprime "x é zero" caso o valor de X seja realmente zero.
+
+o erro em questao se dá pois x não é inicializado.
+
+log de erro: Conditional jump or move depends on uninitialised value(s)
+               at 0x109159 main (c12.c:6)
+             Uninitialised value was created by a stack allocation
+               at 0x109149 main (c12.c:4)
+
+
+para corrigir, inicializei x com o valor de zero.

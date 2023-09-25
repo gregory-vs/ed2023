@@ -1,0 +1,13 @@
+o programa aloca diferente quantidade de memória para um ponteiro p.
+
+o erro se dá pois o programa não libera a memoria não utilizada antes de alocar outra quantidade de memória
+
+log de erro: 16 bytes in 1 blocks are definitely lost in loss record 1 of 2
+               at 0x4848899 malloc
+               at 0x1091A6 main (c13.c:11)
+
+            19 bytes in 1 blocks are definitely lost in loss record 2 of 2
+              at 0x4848899 malloc
+              at 0x10917E main (c13.c:8)
+
+para corrigir o erro, liberei a memoria não utilizada antes de alocar outra quantidade de memória.

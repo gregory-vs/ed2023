@@ -1,0 +1,11 @@
+o codigo implementa um programa que aloca o conteudo de um vetor origem (source) para um destino (destination)
+
+O erro se dá na quantidade de memoria alocada para o destino ser maior que a origem (source), sendo assim, ficamos com memoria alocada e nunca utilizada
+
+log de erro: Invalid read of size 1
+               at 0x1091D2 main (c8.c:9)
+             Address 0x4a8b0ba is 0 bytes after a block of size 26 alloc'd
+               at 0x4848899 malloc
+               at 0x1091B1 main (c8.c:6)
+
+para corrigir, simplesmente subsitituimos o valor de 27 para 26 no for que coloca o conteudo da origem no destino.

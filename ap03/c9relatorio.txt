@@ -1,0 +1,10 @@
+o programa simplesmente cria um vetor de inteiros, aloca a quantidade de memoria para 10 posições dentro desse vetor e povoa com o número zero a última casa desse vetor
+o erro se dá pois o código tenta colocar o valor 0 na posição 10, quando adicionamos 10 posições dentro de um vetor, a ultima casa é a 9, visto que se inicia na casa 0
+
+log de erro: 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
+               at 0x4848899 malloc
+               at 0x10915E f (c9.c:5)
+               at 0x109180 main (c9.c:11)
+
+
+para corrigir, troquei o valor da ultima casa de 9 pra 10 e liberei a memória não utilizada com o free()

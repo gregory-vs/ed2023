@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  int n, i, fact;
+  int n, i, fact = 1;
 
   printf("Positive integer:");
   scanf("%d", &n);

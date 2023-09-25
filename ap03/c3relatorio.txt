@@ -1,0 +1,6 @@
+o código foi feito para alocar memória dinamicamente a um vetor de inteiros
+
+o erro se dá na hora de liberar a memoria não utilizada, pelo uso do free(), o log de erro é o seguinte: 3,600 bytes in 9 blocks are definitely lost in loss record 1 of 1
+                                                                                                           at 0x4848899 malloc
+                                                                                                           at 0x10918E main (c3.c:9)
+Para corrigir o erro, basta liberarmos a memória dentro do for, já que o vetor não está sendo utilizado.
