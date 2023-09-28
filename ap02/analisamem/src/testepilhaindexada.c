@@ -17,7 +17,7 @@
 
 // vetor de acessos para teste
 // -1 sinaliza o fim da sequencia
-int acessos[]={
+int acessos[]={ 
 1,1,2,1,3,4,1,2,5,1,2,3,4,5,-1};
 
 // como é apenas um teste, nao tem argc e argv

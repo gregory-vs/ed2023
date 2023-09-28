@@ -129,29 +129,77 @@ ed2023/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/build
 .PHONY : ed2023/fast
 
-ap03/c19.o: ap03/c19.c.o
-.PHONY : ap03/c19.o
+TP1/src/expressao.o: TP1/src/expressao.cpp.o
+.PHONY : TP1/src/expressao.o
 
 # target to build an object file
-ap03/c19.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/ap03/c19.c.o
-.PHONY : ap03/c19.c.o
+TP1/src/expressao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.o
+.PHONY : TP1/src/expressao.cpp.o
 
-ap03/c19.i: ap03/c19.c.i
-.PHONY : ap03/c19.i
+TP1/src/expressao.i: TP1/src/expressao.cpp.i
+.PHONY : TP1/src/expressao.i
 
 # target to preprocess a source file
-ap03/c19.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/ap03/c19.c.i
-.PHONY : ap03/c19.c.i
+TP1/src/expressao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.i
+.PHONY : TP1/src/expressao.cpp.i
 
-ap03/c19.s: ap03/c19.c.s
-.PHONY : ap03/c19.s
+TP1/src/expressao.s: TP1/src/expressao.cpp.s
+.PHONY : TP1/src/expressao.s
 
 # target to generate assembly for a file
-ap03/c19.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/ap03/c19.c.s
-.PHONY : ap03/c19.c.s
+TP1/src/expressao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.s
+.PHONY : TP1/src/expressao.cpp.s
+
+TP1/src/main.o: TP1/src/main.cpp.o
+.PHONY : TP1/src/main.o
+
+# target to build an object file
+TP1/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/main.cpp.o
+.PHONY : TP1/src/main.cpp.o
+
+TP1/src/main.i: TP1/src/main.cpp.i
+.PHONY : TP1/src/main.i
+
+# target to preprocess a source file
+TP1/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/main.cpp.i
+.PHONY : TP1/src/main.cpp.i
+
+TP1/src/main.s: TP1/src/main.cpp.s
+.PHONY : TP1/src/main.s
+
+# target to generate assembly for a file
+TP1/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/main.cpp.s
+.PHONY : TP1/src/main.cpp.s
+
+TP1/src/stack.o: TP1/src/stack.cpp.o
+.PHONY : TP1/src/stack.o
+
+# target to build an object file
+TP1/src/stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o
+.PHONY : TP1/src/stack.cpp.o
+
+TP1/src/stack.i: TP1/src/stack.cpp.i
+.PHONY : TP1/src/stack.i
+
+# target to preprocess a source file
+TP1/src/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/stack.cpp.i
+.PHONY : TP1/src/stack.cpp.i
+
+TP1/src/stack.s: TP1/src/stack.cpp.s
+.PHONY : TP1/src/stack.s
+
+# target to generate assembly for a file
+TP1/src/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s
+.PHONY : TP1/src/stack.cpp.s
 
 # Help Target
 help:
@@ -162,9 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ed2023"
-	@echo "... ap03/c19.o"
-	@echo "... ap03/c19.i"
-	@echo "... ap03/c19.s"
+	@echo "... TP1/src/expressao.o"
+	@echo "... TP1/src/expressao.i"
+	@echo "... TP1/src/expressao.s"
+	@echo "... TP1/src/main.o"
+	@echo "... TP1/src/main.i"
+	@echo "... TP1/src/main.s"
+	@echo "... TP1/src/stack.o"
+	@echo "... TP1/src/stack.i"
+	@echo "... TP1/src/stack.s"
 .PHONY : help
 
 

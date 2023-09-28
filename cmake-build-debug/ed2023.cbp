@@ -24,6 +24,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -43,6 +46,9 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
@@ -76,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Repos/ed2023/ap03/c19.c">
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/include/expressao.h">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/include/stack.h">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/expressao.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/main.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/stack.cpp">
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/Repos/ed2023/CMakeLists.txt">
