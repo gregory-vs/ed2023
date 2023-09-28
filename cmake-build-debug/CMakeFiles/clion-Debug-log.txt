@@ -1,4 +1,13 @@
 C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Repos/ed2023/cmake-build-debug && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Repos/ed2023 -B /mnt/c/Repos/ed2023/cmake-build-debug"
 -- Configuring done
--- Generating done
--- Build files have been written to: /mnt/c/Repos/ed2023/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    ap02/c19.c
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: ed2023
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -18,7 +18,7 @@ void printSum()
     printf("enter a number:\n");
     fgets(line, 10, stdin);
     if(line != NULL) 
-        strtok(line, "\n"); 
+        strtok(line, "\n");
     sprintf(buf,"sum=%d",sum_to_n(atoi(line)));
     printf("%s\n",buf);
 }
