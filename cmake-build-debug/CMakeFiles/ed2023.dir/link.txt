@@ -1,1 +1,3 @@
-/usr/bin/cc -g CMakeFiles/ed2023.dir/ap03/c19.c.o -o ed2023 
+"C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\ed2023.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\ed2023.dir/objects.a @CMakeFiles\ed2023.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ed2023.dir/objects.a -Wl,--no-whole-archive -o ed2023.exe -Wl,--out-implib,libed2023.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ed2023.dir\linkLibs.rsp
