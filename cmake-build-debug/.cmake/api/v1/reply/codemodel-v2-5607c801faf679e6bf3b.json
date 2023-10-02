@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug",
-		"source" : "/mnt/c/wamp64/www/Repos/ed2023"
+		"build" : "/mnt/c/Repos/ed2023/cmake-build-debug",
+		"source" : "/mnt/c/Repos/ed2023"
 	},
 	"version" : 
 	{

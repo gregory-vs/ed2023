@@ -1,18 +1,18 @@
 #ifndef STACK_H
 #define STACK_H
 
-
-#define MAX 1000 //max size for stack
-
 class Stack
 {
     private:
-        int* element;
-        char top;
-        char myStack[MAX]; //stack array
+        struct Node{
+            char value;
+            Node* next;
+        };
+
+        Node* top; //pointer to the top of the stack
 
     public:
-        Stack();
+        Stack() : top(nullptr) {};
         ~Stack();
         char getTop() const;
         void setTop(char newTop);
