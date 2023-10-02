@@ -1,7 +1,3 @@
-#include <iostream>
-#include "../include/stack.h"
-#include "../include/expressao.h"
-
 // Função para verificar se um caractere é um operador
 bool isOperator(char c) {
     return (c == '+' || c == '-' || c == '*' || c == '/');
@@ -131,15 +127,4 @@ double evaluateExpression(string expression) {
         cerr << "Erro: Expressão mal formada." << endl;
         exit(1);
     }
-}
-
-int main() {
-    string expression;
-    cout << "Digite uma expressão numérica: ";
-    getline(cin, expression);
-
-    double result = evaluateExpression(expression);
-    cout << "Resultado: " << result << endl;
-
-    return 0;
 }

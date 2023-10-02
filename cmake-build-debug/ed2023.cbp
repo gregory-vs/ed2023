@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/include/node.h">
+			<Option target="ed2023"/>
+		</Unit>
 		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/expressao.cpp">
 			<Option target="ed2023"/>
 		</Unit>
@@ -89,6 +92,9 @@
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/stack.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/teste.cpp">
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/Repos/ed2023/CMakeLists.txt">

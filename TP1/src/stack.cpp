@@ -1,8 +1,6 @@
 #include <iostream>
 #include "../include/stack.h"
-using namespace  std;
-
-
+#include "../include/node.h"
 
 Stack::~Stack()
 {
@@ -13,31 +11,26 @@ Stack::~Stack()
 }
 
 //pushes element on to the stack
-bool Stack::push(char element)
+void Stack::push(Node* element)
 {
-    Node* newNode = new Node;
+    StackNode* newNode = new StackNode;
     newNode->value = element;
     newNode->next = top;
     top = newNode;
-    cout<<"elemento" << element << "empilhado com sucesso" << endl;
 }
 
 //removes or pops elements out of the stack
-char Stack::pop()
+void Stack::pop()
 {
     if(!isEmpty())
     {
-        char elementPopped = top->value;
-        Node* temp = top;
+        StackNode* temp = top;
         top = top->next;
         delete temp;
-        cout << "elemento" << elementPopped << "desempilhado com sucesso" << endl;
-        return elementPopped;
     }
     else
     {
-        cerr<<"Erro: pilha vazia, impossivel desempilhar" << endl;
-        return -1;
+        std::cerr<<"Erro: pilha vazia, impossivel desempilhar" << std::endl;
     }
 }
 
@@ -47,7 +40,7 @@ bool Stack::isEmpty() const
     return top == nullptr;
 }
 
-char Stack::getTop() const
+Node* Stack::getTop()  const
 {
     if(!isEmpty())
     {
@@ -55,8 +48,8 @@ char Stack::getTop() const
     }
     else
     {
-        cerr << "Erro: Pilha vazia, não há topo para acessar" << endl;
-        return -1;
+        std::cerr << "Erro: Pilha vazia, não há topo para acessar" << std::endl;
+        return nullptr;
     }
 }
 

@@ -1,26 +1,24 @@
 #ifndef STACK_H
 #define STACK_H
+#include "../include/node.h"
 
 class Stack
 {
     private:
-        struct Node{
-            char value;
-            Node* next;
+        struct StackNode{
+            Node* value;
+            StackNode* next;
         };
 
-        Node* top; //pointer to the top of the stack
+        StackNode* top; //pointer to the top of the stack
 
     public:
         Stack() : top(nullptr) {};
         ~Stack();
-        char getTop() const;
-        void setTop(char newTop);
+        Node* getTop() const;
         bool isEmpty() const;
-        bool isFull() const;
-        bool push(char x);
-        char pop();
-        //char verifyTop();
+        void push(Node* x);
+        void pop();
 };
 
 

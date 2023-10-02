@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ed2023.dir/TP1/src/main.cpp.o.d"
   "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o"
   "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o.d"
+  "CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o"
+  "CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o.d"
   "ed2023"
   "ed2023.pdb"
 )

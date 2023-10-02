@@ -201,6 +201,30 @@ TP1/src/stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s
 .PHONY : TP1/src/stack.cpp.s
 
+TP1/src/teste.o: TP1/src/teste.cpp.o
+.PHONY : TP1/src/teste.o
+
+# target to build an object file
+TP1/src/teste.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o
+.PHONY : TP1/src/teste.cpp.o
+
+TP1/src/teste.i: TP1/src/teste.cpp.i
+.PHONY : TP1/src/teste.i
+
+# target to preprocess a source file
+TP1/src/teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/teste.cpp.i
+.PHONY : TP1/src/teste.cpp.i
+
+TP1/src/teste.s: TP1/src/teste.cpp.s
+.PHONY : TP1/src/teste.s
+
+# target to generate assembly for a file
+TP1/src/teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/teste.cpp.s
+.PHONY : TP1/src/teste.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... TP1/src/stack.o"
 	@echo "... TP1/src/stack.i"
 	@echo "... TP1/src/stack.s"
+	@echo "... TP1/src/teste.o"
+	@echo "... TP1/src/teste.i"
+	@echo "... TP1/src/teste.s"
 .PHONY : help
 
 

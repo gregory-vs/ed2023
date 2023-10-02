@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Repos/ed2023/TP1/src/expressao.cpp" "CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.o" "gcc" "CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.o.d"
   "/mnt/c/Repos/ed2023/TP1/src/main.cpp" "CMakeFiles/ed2023.dir/TP1/src/main.cpp.o" "gcc" "CMakeFiles/ed2023.dir/TP1/src/main.cpp.o.d"
   "/mnt/c/Repos/ed2023/TP1/src/stack.cpp" "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o" "gcc" "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o.d"
+  "/mnt/c/Repos/ed2023/TP1/src/teste.cpp" "CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o" "gcc" "CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o.d"
   )
 
 # Targets to which this target links.
