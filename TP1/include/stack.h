@@ -8,16 +8,19 @@ class Stack
 {
     private:
         int* element;
-        int top;
-        int myStack[MAX]; //stack array
+        char top;
+        char myStack[MAX]; //stack array
 
     public:
         Stack();
         ~Stack();
-        bool push(int x);
-        int pop();
-        bool isEmpty();
-        int verifyTop();
+        char getTop() const;
+        void setTop(char newTop);
+        bool isEmpty() const;
+        bool isFull() const;
+        bool push(char x);
+        char pop();
+        //char verifyTop();
 };
 
 

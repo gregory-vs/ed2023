@@ -1,5 +1,6 @@
-CMakeFiles/ed2023.dir/ap03/c19.c.o: /mnt/c/Repos/ed2023/ap03/c19.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+CMakeFiles/ed2023.dir/ap03/c2.c.o: \
+ /mnt/c/wamp64/www/Repos/ed2023/ap03/c2.c /usr/include/stdc-predef.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -21,10 +22,7 @@ CMakeFiles/ed2023.dir/ap03/c19.c.o: /mnt/c/Repos/ed2023/ap03/c19.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \

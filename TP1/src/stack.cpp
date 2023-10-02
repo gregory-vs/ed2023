@@ -13,7 +13,7 @@ Stack::~Stack()
 }
 
 //pushes element on to the stack
-bool Stack::push(int item)
+bool Stack::push(char item)
 {
     if (top >= (MAX-1)) {
         cout << "Stack Overflow!!!";
@@ -27,7 +27,7 @@ bool Stack::push(int item)
 }
 
 //removes or pops elements out of the stack
-int Stack::pop()
+char Stack::pop()
 {
     if (top < 0) {
         cout << "Stack Underflow!!";
@@ -40,13 +40,25 @@ int Stack::pop()
 }
 
 //check if stack is empty
-bool Stack::isEmpty()
+bool Stack::isEmpty() const
 {
     return (top < 0);
 }
 
-int Stack::verifyTop()
-{
-    if(!isEmpty())
-        return elements[top];
+char Stack::getTop() const {
+    return 0;
 }
+
+void Stack::setTop(char newTop) {
+
+}
+
+bool Stack::isFull() const {
+    return false;
+}
+
+//char Stack::verifyTop()
+//{
+//    if(!isEmpty())
+//        return elements[top];
+//}
