@@ -43,13 +43,8 @@ bool Stack::isEmpty() const
 Node* Stack::getTop()  const
 {
     if(!isEmpty())
-    {
         return top->value;
-    }
-    else
-    {
-        std::cerr << "Erro: Pilha vazia, não há topo para acessar" << std::endl;
-        return nullptr;
-    }
+
+    return nullptr;
 }
 

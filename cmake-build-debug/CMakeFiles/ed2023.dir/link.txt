@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o CMakeFiles/ed2023.dir/TP1/src/main.cpp.o CMakeFiles/ed2023.dir/TP1/src/teste.cpp.o CMakeFiles/ed2023.dir/TP1/src/expressao.cpp.o -o ed2023 
+/usr/bin/c++ -g CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o CMakeFiles/ed2023.dir/TP1/src/main.cpp.o CMakeFiles/ed2023.dir/TP1/src/node.cpp.o -o ed2023 
