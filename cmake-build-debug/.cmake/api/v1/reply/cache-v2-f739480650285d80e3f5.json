@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Repos/ed2023/cmake-build-debug"
+			"value" : "/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-j8"
+			"value" : "-j16"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Repos/ed2023"
+			"value" : "/mnt/c/wamp64/www/Repos/ed2023"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Repos/ed2023/cmake-build-debug"
+			"value" : "/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug"
 		},
 		{
 			"name" : "ed2023_IS_TOP_LEVEL",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Repos/ed2023"
+			"value" : "/mnt/c/wamp64/www/Repos/ed2023"
 		}
 	],
 	"kind" : "cache",

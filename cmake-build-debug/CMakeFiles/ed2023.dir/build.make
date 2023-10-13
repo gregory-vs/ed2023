@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Repos/ed2023
+CMAKE_SOURCE_DIR = /mnt/c/wamp64/www/Repos/ed2023
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Repos/ed2023/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ed2023.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/ed2023.dir/flags.make
 CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o: CMakeFiles/ed2023.dir/flags.make
 CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o: ../TP1/src/stack.cpp
 CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o: CMakeFiles/ed2023.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o -c /mnt/c/Repos/ed2023/TP1/src/stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o -c /mnt/c/wamp64/www/Repos/ed2023/TP1/src/stack.cpp
 
 CMakeFiles/ed2023.dir/TP1/src/stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ed2023.dir/TP1/src/stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Repos/ed2023/TP1/src/stack.cpp > CMakeFiles/ed2023.dir/TP1/src/stack.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/wamp64/www/Repos/ed2023/TP1/src/stack.cpp > CMakeFiles/ed2023.dir/TP1/src/stack.cpp.i
 
 CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Repos/ed2023/TP1/src/stack.cpp -o CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/wamp64/www/Repos/ed2023/TP1/src/stack.cpp -o CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s
 
 CMakeFiles/ed2023.dir/TP1/src/main.cpp.o: CMakeFiles/ed2023.dir/flags.make
 CMakeFiles/ed2023.dir/TP1/src/main.cpp.o: ../TP1/src/main.cpp
 CMakeFiles/ed2023.dir/TP1/src/main.cpp.o: CMakeFiles/ed2023.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/main.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/main.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/main.cpp.o -c /mnt/c/Repos/ed2023/TP1/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/main.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/main.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/main.cpp.o -c /mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp
 
 CMakeFiles/ed2023.dir/TP1/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ed2023.dir/TP1/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Repos/ed2023/TP1/src/main.cpp > CMakeFiles/ed2023.dir/TP1/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp > CMakeFiles/ed2023.dir/TP1/src/main.cpp.i
 
 CMakeFiles/ed2023.dir/TP1/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ed2023.dir/TP1/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Repos/ed2023/TP1/src/main.cpp -o CMakeFiles/ed2023.dir/TP1/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp -o CMakeFiles/ed2023.dir/TP1/src/main.cpp.s
 
 CMakeFiles/ed2023.dir/TP1/src/node.cpp.o: CMakeFiles/ed2023.dir/flags.make
 CMakeFiles/ed2023.dir/TP1/src/node.cpp.o: ../TP1/src/node.cpp
 CMakeFiles/ed2023.dir/TP1/src/node.cpp.o: CMakeFiles/ed2023.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/node.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/node.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/node.cpp.o -c /mnt/c/Repos/ed2023/TP1/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ed2023.dir/TP1/src/node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ed2023.dir/TP1/src/node.cpp.o -MF CMakeFiles/ed2023.dir/TP1/src/node.cpp.o.d -o CMakeFiles/ed2023.dir/TP1/src/node.cpp.o -c /mnt/c/wamp64/www/Repos/ed2023/TP1/src/node.cpp
 
 CMakeFiles/ed2023.dir/TP1/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ed2023.dir/TP1/src/node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Repos/ed2023/TP1/src/node.cpp > CMakeFiles/ed2023.dir/TP1/src/node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/wamp64/www/Repos/ed2023/TP1/src/node.cpp > CMakeFiles/ed2023.dir/TP1/src/node.cpp.i
 
 CMakeFiles/ed2023.dir/TP1/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ed2023.dir/TP1/src/node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Repos/ed2023/TP1/src/node.cpp -o CMakeFiles/ed2023.dir/TP1/src/node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/wamp64/www/Repos/ed2023/TP1/src/node.cpp -o CMakeFiles/ed2023.dir/TP1/src/node.cpp.s
 
 CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o: CMakeFiles/ed2023.dir/flags.make
 CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o: ../TP1/src/expression.cpp
@@ -141,7 +141,7 @@ ed2023: CMakeFiles/ed2023.dir/TP1/src/node.cpp.o
 ed2023: CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o
 ed2023: CMakeFiles/ed2023.dir/build.make
 ed2023: CMakeFiles/ed2023.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ed2023"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ed2023"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ed2023.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/ed2023.dir/clean:
 .PHONY : CMakeFiles/ed2023.dir/clean
 
 CMakeFiles/ed2023.dir/depend:
-	cd /mnt/c/Repos/ed2023/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Repos/ed2023 /mnt/c/Repos/ed2023 /mnt/c/Repos/ed2023/cmake-build-debug /mnt/c/Repos/ed2023/cmake-build-debug /mnt/c/Repos/ed2023/cmake-build-debug/CMakeFiles/ed2023.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/wamp64/www/Repos/ed2023 /mnt/c/wamp64/www/Repos/ed2023 /mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug /mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug /mnt/c/wamp64/www/Repos/ed2023/cmake-build-debug/CMakeFiles/ed2023.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ed2023.dir/depend
 
