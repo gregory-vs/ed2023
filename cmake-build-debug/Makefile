@@ -129,6 +129,30 @@ ed2023/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/build
 .PHONY : ed2023/fast
 
+TP1/src/expression.o: TP1/src/expression.cpp.o
+.PHONY : TP1/src/expression.o
+
+# target to build an object file
+TP1/src/expression.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o
+.PHONY : TP1/src/expression.cpp.o
+
+TP1/src/expression.i: TP1/src/expression.cpp.i
+.PHONY : TP1/src/expression.i
+
+# target to preprocess a source file
+TP1/src/expression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expression.cpp.i
+.PHONY : TP1/src/expression.cpp.i
+
+TP1/src/expression.s: TP1/src/expression.cpp.s
+.PHONY : TP1/src/expression.s
+
+# target to generate assembly for a file
+TP1/src/expression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/expression.cpp.s
+.PHONY : TP1/src/expression.cpp.s
+
 TP1/src/main.o: TP1/src/main.cpp.o
 .PHONY : TP1/src/main.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ed2023"
+	@echo "... TP1/src/expression.o"
+	@echo "... TP1/src/expression.i"
+	@echo "... TP1/src/expression.s"
 	@echo "... TP1/src/main.o"
 	@echo "... TP1/src/main.i"
 	@echo "... TP1/src/main.s"

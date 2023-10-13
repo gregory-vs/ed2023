@@ -15,11 +15,6 @@ bool NodeOperator::evaluate() const
         return left->evaluate() || right->evaluate();
     else if (oper == '~')
         return !left->evaluate();
-    else
-    {
-        std::cerr << "Operador invalido" << oper << std::endl;
-        return false;
-    }
 
     //todo mudar para case
 }

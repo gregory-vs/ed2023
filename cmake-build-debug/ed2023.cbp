@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/include/expression.h">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/expression.cpp">
+			<Option target="ed2023"/>
+		</Unit>
 		<Unit filename="/mnt/c/Repos/ed2023/TP1/src/main.cpp">
 			<Option target="ed2023"/>
 		</Unit>
