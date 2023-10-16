@@ -85,7 +85,7 @@
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/expression.h">
 			<Option target="ed2023"/>
 		</Unit>
-		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/tree.cpp">
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/satisfiability.h">
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/tree.h">
@@ -97,7 +97,13 @@
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp">
 			<Option target="ed2023"/>
 		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/satisfiability.cpp">
+			<Option target="ed2023"/>
+		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/stack.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/tree.cpp">
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/CMakeLists.txt">

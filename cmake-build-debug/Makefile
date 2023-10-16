@@ -129,30 +129,6 @@ ed2023/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/build
 .PHONY : ed2023/fast
 
-TP1/include/tree.o: TP1/include/tree.cpp.o
-.PHONY : TP1/include/tree.o
-
-# target to build an object file
-TP1/include/tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.o
-.PHONY : TP1/include/tree.cpp.o
-
-TP1/include/tree.i: TP1/include/tree.cpp.i
-.PHONY : TP1/include/tree.i
-
-# target to preprocess a source file
-TP1/include/tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.i
-.PHONY : TP1/include/tree.cpp.i
-
-TP1/include/tree.s: TP1/include/tree.cpp.s
-.PHONY : TP1/include/tree.s
-
-# target to generate assembly for a file
-TP1/include/tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.s
-.PHONY : TP1/include/tree.cpp.s
-
 TP1/src/expression.o: TP1/src/expression.cpp.o
 .PHONY : TP1/src/expression.o
 
@@ -201,6 +177,30 @@ TP1/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/main.cpp.s
 .PHONY : TP1/src/main.cpp.s
 
+TP1/src/satisfiability.o: TP1/src/satisfiability.cpp.o
+.PHONY : TP1/src/satisfiability.o
+
+# target to build an object file
+TP1/src/satisfiability.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/satisfiability.cpp.o
+.PHONY : TP1/src/satisfiability.cpp.o
+
+TP1/src/satisfiability.i: TP1/src/satisfiability.cpp.i
+.PHONY : TP1/src/satisfiability.i
+
+# target to preprocess a source file
+TP1/src/satisfiability.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/satisfiability.cpp.i
+.PHONY : TP1/src/satisfiability.cpp.i
+
+TP1/src/satisfiability.s: TP1/src/satisfiability.cpp.s
+.PHONY : TP1/src/satisfiability.s
+
+# target to generate assembly for a file
+TP1/src/satisfiability.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/satisfiability.cpp.s
+.PHONY : TP1/src/satisfiability.cpp.s
+
 TP1/src/stack.o: TP1/src/stack.cpp.o
 .PHONY : TP1/src/stack.o
 
@@ -225,6 +225,30 @@ TP1/src/stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/stack.cpp.s
 .PHONY : TP1/src/stack.cpp.s
 
+TP1/src/tree.o: TP1/src/tree.cpp.o
+.PHONY : TP1/src/tree.o
+
+# target to build an object file
+TP1/src/tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/tree.cpp.o
+.PHONY : TP1/src/tree.cpp.o
+
+TP1/src/tree.i: TP1/src/tree.cpp.i
+.PHONY : TP1/src/tree.i
+
+# target to preprocess a source file
+TP1/src/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/tree.cpp.i
+.PHONY : TP1/src/tree.cpp.i
+
+TP1/src/tree.s: TP1/src/tree.cpp.s
+.PHONY : TP1/src/tree.s
+
+# target to generate assembly for a file
+TP1/src/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/tree.cpp.s
+.PHONY : TP1/src/tree.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ed2023"
-	@echo "... TP1/include/tree.o"
-	@echo "... TP1/include/tree.i"
-	@echo "... TP1/include/tree.s"
 	@echo "... TP1/src/expression.o"
 	@echo "... TP1/src/expression.i"
 	@echo "... TP1/src/expression.s"
 	@echo "... TP1/src/main.o"
 	@echo "... TP1/src/main.i"
 	@echo "... TP1/src/main.s"
+	@echo "... TP1/src/satisfiability.o"
+	@echo "... TP1/src/satisfiability.i"
+	@echo "... TP1/src/satisfiability.s"
 	@echo "... TP1/src/stack.o"
 	@echo "... TP1/src/stack.i"
 	@echo "... TP1/src/stack.s"
+	@echo "... TP1/src/tree.o"
+	@echo "... TP1/src/tree.i"
+	@echo "... TP1/src/tree.s"
 .PHONY : help
 
 

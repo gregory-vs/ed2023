@@ -11,4 +11,6 @@ add_executable(ed2023
         TP1/src/expression.cpp
         TP1/src/tree.cpp
         TP1/include/tree.h
+        TP1/src/satisfiability.cpp
+        TP1/include/satisfiability.h
 )

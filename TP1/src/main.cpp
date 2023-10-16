@@ -18,16 +18,21 @@ string removeWhiteSpaces(const string& input)
 
 string replaceValoration(const string& input, const string& value)
 {
+
+    //"010101" j.size() == 6 (valores da expressão vao de 0 a 5)
+    //percorro a expressao e procuro um valor igual a posição de j, se encontrar substituo
+
     string myString = input;
-    int size = input.size();
-    int j = 0;
-    for (int i = 0; i < size; ++i) {
-        if (isdigit(input[i])) {
-            myString[i] = value[j];
-            j++;
+    for(int j = 0; j < value.size(); ++j )
+    {
+        for(int i = 0; i < input.size(); ++i)
+        {
+            if(isdigit(input[i]) && stoi(string(1,input[i])) == j)
+                myString[i] = value[j];
         }
     }
     return myString;
+
 }
 
 int main(int argc,char *argv[])
@@ -41,7 +46,7 @@ int main(int argc,char *argv[])
     s = Expression::infixToPrefix(s);
     result = Expression::evaluatePrefix(s);
 
-    cout << int(result);
+    cout << stoi(string(1,result));
 
     return 0;
 
