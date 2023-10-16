@@ -18,10 +18,6 @@ string removeWhiteSpaces(const string& input)
 
 string replaceValoration(const string& input, const string& value)
 {
-
-    //"010101" j.size() == 6 (valores da expressão vao de 0 a 5)
-    //percorro a expressao e procuro um valor igual a posição de j, se encontrar substituo
-
     string myString = input;
     for(int j = 0; j < value.size(); ++j )
     {

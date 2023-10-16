@@ -7,20 +7,11 @@ void BinaryTree::insert(int val) {
     root = insertNode(root, val);
 }
 
-// Function to perform an in-order traversal of the tree
-void BinaryTree::inorderTraversal(TreeNode* node) {
-    if (node == nullptr) return;
-    inorderTraversal(node->left);
-    cout << node->data << " ";
-    inorderTraversal(node->right);
-}
-
-// Function to perform a post-order traversal of the tree
 void BinaryTree::postorderTraversal(TreeNode* node) {
     if (node == nullptr) return;
     postorderTraversal(node->left);
     postorderTraversal(node->right);
-    cout << node->data << " ";
+    cout << node->data << " "; // return something
 }
 
 // Recursive function to insert a new node into the tree
