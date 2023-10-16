@@ -82,10 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp">
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/expression.h">
 			<Option target="ed2023"/>
 		</Unit>
-		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/node.cpp">
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/tree.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/include/tree.h">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/expression.cpp">
+			<Option target="ed2023"/>
+		</Unit>
+		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/main.cpp">
 			<Option target="ed2023"/>
 		</Unit>
 		<Unit filename="/mnt/c/wamp64/www/Repos/ed2023/TP1/src/stack.cpp">

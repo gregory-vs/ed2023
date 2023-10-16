@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ed2023.dir/TP1/include/tree.cpp.o"
+  "CMakeFiles/ed2023.dir/TP1/include/tree.cpp.o.d"
   "CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o"
   "CMakeFiles/ed2023.dir/TP1/src/expression.cpp.o.d"
   "CMakeFiles/ed2023.dir/TP1/src/main.cpp.o"
   "CMakeFiles/ed2023.dir/TP1/src/main.cpp.o.d"
-  "CMakeFiles/ed2023.dir/TP1/src/node.cpp.o"
-  "CMakeFiles/ed2023.dir/TP1/src/node.cpp.o.d"
   "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o"
   "CMakeFiles/ed2023.dir/TP1/src/stack.cpp.o.d"
   "ed2023"

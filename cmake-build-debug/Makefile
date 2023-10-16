@@ -129,6 +129,30 @@ ed2023/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/build
 .PHONY : ed2023/fast
 
+TP1/include/tree.o: TP1/include/tree.cpp.o
+.PHONY : TP1/include/tree.o
+
+# target to build an object file
+TP1/include/tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.o
+.PHONY : TP1/include/tree.cpp.o
+
+TP1/include/tree.i: TP1/include/tree.cpp.i
+.PHONY : TP1/include/tree.i
+
+# target to preprocess a source file
+TP1/include/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.i
+.PHONY : TP1/include/tree.cpp.i
+
+TP1/include/tree.s: TP1/include/tree.cpp.s
+.PHONY : TP1/include/tree.s
+
+# target to generate assembly for a file
+TP1/include/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/include/tree.cpp.s
+.PHONY : TP1/include/tree.cpp.s
+
 TP1/src/expression.o: TP1/src/expression.cpp.o
 .PHONY : TP1/src/expression.o
 
@@ -177,30 +201,6 @@ TP1/src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/main.cpp.s
 .PHONY : TP1/src/main.cpp.s
 
-TP1/src/node.o: TP1/src/node.cpp.o
-.PHONY : TP1/src/node.o
-
-# target to build an object file
-TP1/src/node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/node.cpp.o
-.PHONY : TP1/src/node.cpp.o
-
-TP1/src/node.i: TP1/src/node.cpp.i
-.PHONY : TP1/src/node.i
-
-# target to preprocess a source file
-TP1/src/node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/node.cpp.i
-.PHONY : TP1/src/node.cpp.i
-
-TP1/src/node.s: TP1/src/node.cpp.s
-.PHONY : TP1/src/node.s
-
-# target to generate assembly for a file
-TP1/src/node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ed2023.dir/build.make CMakeFiles/ed2023.dir/TP1/src/node.cpp.s
-.PHONY : TP1/src/node.cpp.s
-
 TP1/src/stack.o: TP1/src/stack.cpp.o
 .PHONY : TP1/src/stack.o
 
@@ -234,15 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ed2023"
+	@echo "... TP1/include/tree.o"
+	@echo "... TP1/include/tree.i"
+	@echo "... TP1/include/tree.s"
 	@echo "... TP1/src/expression.o"
 	@echo "... TP1/src/expression.i"
 	@echo "... TP1/src/expression.s"
 	@echo "... TP1/src/main.o"
 	@echo "... TP1/src/main.i"
 	@echo "... TP1/src/main.s"
-	@echo "... TP1/src/node.o"
-	@echo "... TP1/src/node.i"
-	@echo "... TP1/src/node.s"
 	@echo "... TP1/src/stack.o"
 	@echo "... TP1/src/stack.i"
 	@echo "... TP1/src/stack.s"

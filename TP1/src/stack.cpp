@@ -1,30 +1,32 @@
 #include <iostream>
 #include "../include/stack.h"
-#include "../include/node.h"
 
 Stack::~Stack()
 {
-    while (!isEmpty())
+    while (top != NULL)
     {
-        pop();
+        node *temp = top;
+        top = top->next;
+        delete temp;
     }
 }
 
 //pushes element on to the stack
-void Stack::push(Node* element)
+void Stack::push(char c)
 {
-    StackNode* newNode = new StackNode;
-    newNode->value = element;
-    newNode->next = top;
-    top = newNode;
+    node *temp;
+    temp = new node;
+    temp->data = c;
+    temp->next = top;
+    top = temp;
 }
 
 //removes or pops elements out of the stack
 void Stack::pop()
 {
-    if(!isEmpty())
+    if(top != NULL)
     {
-        StackNode* temp = top;
+        node *temp = top;
         top = top->next;
         delete temp;
     }
@@ -37,14 +39,14 @@ void Stack::pop()
 //check if stack is empty
 bool Stack::isEmpty() const
 {
-    return top == nullptr;
+    return top == NULL;
 }
 
-Node* Stack::getTop()  const
+char Stack::getTop()  const
 {
     if(!isEmpty())
-        return top->value;
+        return top->data;
 
-    return nullptr;
+    return false;
 }
 
