@@ -2,6 +2,7 @@
 #include <string>
 #include <cctype>
 #include "../include/expression.h"
+#include "../include/satisfiability.h"
 
 using namespace std;
 
@@ -33,17 +34,37 @@ string replaceValoration(const string& input, const string& value)
 
 int main(int argc,char *argv[])
 {
-    string s = "0 | 1 & 2";
-    string p = "010";
-    char result;
-    s = removeWhiteSpaces(s);
-    p = removeWhiteSpaces(p);
-    s = replaceValoration(s, p);
-    s = Expression::infixToPrefix(s);
-    result = Expression::evaluatePrefix(s);
+    char opcao = 's';
 
-    cout << stoi(string(1,result));
+    if(opcao == 'a')
+    {
+        string s = "0 | 1 & 2";
+        string p = "010";
+        char result;
+        s = removeWhiteSpaces(s);
+        p = removeWhiteSpaces(p);
+        s = replaceValoration(s, p);
+        s = Expression::infixToPrefix(s);
+        result = Expression::evaluatePrefix(s);
+
+        cout << stoi(string(1,result));
+    }
+
+    if(opcao == 's')
+    {
+        string s = "0 | 1 & 2";
+        string p = "ee1";
+        char result;
+        s = removeWhiteSpaces(s);
+        p = removeWhiteSpaces(p);
+        s = replaceValoration(s, p);
+        Satisfiability::fillTree(s);
+
+//        s = Expression::infixToPrefix(s);//isso aqui so no final, depois de construir a arvore
+//        result = Expression::evaluatePrefix(s);
+//
+//        cout << stoi(string(1,result));
+    }
 
     return 0;
-
 }

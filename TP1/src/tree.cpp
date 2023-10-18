@@ -1,31 +1,69 @@
 #include <iostream>
+#include <string>
 #include "../include/tree.h"
 using namespace std;
 
 
-void BinaryTree::insert(int val) {
-    root = insertNode(root, val);
+void BinaryTree::insert(const std::string& val, const int& pos)
+{
+    root = insertRecursive(root, val, pos);
 }
 
-void BinaryTree::postorderTraversal(TreeNode* node) {
-    if (node == nullptr) return;
-    postorderTraversal(node->left);
-    postorderTraversal(node->right);
-    cout << node->data << " "; // return something
-}
+TreeNode* BinaryTree::insertRecursive(TreeNode* node, const string& val, const int& pos) {
+    if(node == nullptr)
+        return new TreeNode(val, pos);
+    else if((node->left == nullptr && node->right == nullptr) || node->left->data != val)
+    {
 
-// Recursive function to insert a new node into the tree
-TreeNode* BinaryTree::insertNode(TreeNode* node, int val) {
-    if (node == nullptr) {
-        return new TreeNode(val);
+        if(node->left != nullptr && node->left->pos == pos)
+        {
+            node->right = insertRecursive(node->right, val, pos);
+        }
+        if(pos > node->pos)
+        {
+            node->left = insertRecursive(node->left, val, pos);
+        }
+        else
+            node->right = insertRecursive(node->right, val, pos);
     }
-
-    if (val < node->data) {
-        node->left = insertNode(node->left, val);
-    } else if (val > node->data) {
-        node->right = insertNode(node->right, val);
-    }
-
     return node;
+}
+
+bool BinaryTree::isSubtreeFull(TreeNode* node) {
+    return node!= nullptr && node->left != nullptr && node->right != nullptr;
+}
+
+
+string BinaryTree::postorderTraversal(TreeNode* node) {
+    if (node == nullptr) return "";
+    string leftResult = postorderTraversal(node->left);
+    string rightResult = postorderTraversal(node->right);
+
+    if(leftResult.empty() && rightResult.empty())
+        return node->data;
+    else
+        return leftResult + " " + rightResult;
+}
+
+string BinaryTree::getLastNodeValue(){
+    string result = postorderTraversal(root);
+    if(!result.empty())
+        return result;
+}
+
+void BinaryTree::destroyTree(TreeNode *node) {
+    if (node == nullptr) {
+        return;
+    }
+
+    destroyTree(node->left);
+    destroyTree(node->right);
+
+    delete node;
+}
+
+BinaryTree::~BinaryTree()
+{
+    destroyTree(root);
 }
 

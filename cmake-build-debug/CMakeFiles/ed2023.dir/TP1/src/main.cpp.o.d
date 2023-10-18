@@ -146,4 +146,6 @@ CMakeFiles/ed2023.dir/TP1/src/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /mnt/c/wamp64/www/Repos/ed2023/TP1/src/../include/expression.h
+ /mnt/c/wamp64/www/Repos/ed2023/TP1/src/../include/expression.h \
+ /mnt/c/wamp64/www/Repos/ed2023/TP1/src/../include/satisfiability.h \
+ /mnt/c/wamp64/www/Repos/ed2023/TP1/src/../include/../include/tree.h
